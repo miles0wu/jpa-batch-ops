@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @IdClass(PersonId.class)
-@Data                   // 產生 getter, setter, toString, equals, hashCode
-@NoArgsConstructor      // 無參構造器
-@AllArgsConstructor     // 全參構造器
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Person {
 
     @Id
